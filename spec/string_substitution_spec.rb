@@ -1,8 +1,9 @@
-require 'test_helper'
+#encoding: utf-8
+require 'spec_helper'
 
-class StringSubstitutionTest < Test::Unit::TestCase
+describe 'string substitution' do
 
-  def test_substitution
+  it "should have substitution" do
     {
       :alert        => "\a",    :backspace    => "\b",
       :escape       => "\e",    :formfeed     => "\f",

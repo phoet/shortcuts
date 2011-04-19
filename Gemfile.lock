@@ -1,0 +1,27 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    chalofa_ruby-progressbar (0.0.9.1)
+    diff-lcs (1.1.2)
+    fuubar (0.0.4)
+      chalofa_ruby-progressbar (~> 0.0.9)
+      rspec (~> 2.0)
+      rspec-instafail (~> 0.1.4)
+    mocha (0.9.12)
+    rspec (2.5.0)
+      rspec-core (~> 2.5.0)
+      rspec-expectations (~> 2.5.0)
+      rspec-mocks (~> 2.5.0)
+    rspec-core (2.5.1)
+    rspec-expectations (2.5.0)
+      diff-lcs (~> 1.1.2)
+    rspec-instafail (0.1.7)
+    rspec-mocks (2.5.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  fuubar
+  mocha
+  rspec
